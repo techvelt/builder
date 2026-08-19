@@ -1,0 +1,56 @@
+priority,tier,platform,url,category,action,status,date_submitted,notes
+1,1,Inventory Ready,https://inventoryready.com/,Supplement directory,Request packaging listing,pending,,
+2,1,Wonnda,https://wonnda.com/packaging-suppliers/,B2B sourcing,Create supplier profile,pending,,
+3,1,ThomasNet,https://www.thomasnet.com/,Industrial directory,Free supplier listing,pending,,
+4,1,Google Business Profile,https://business.google.com/,Local/entity,Claim/create listing,pending,,Critical for Monroe NY entity
+5,1,LinkedIn Company,https://www.linkedin.com/company/setup/new/,Social/entity,Create company page,pending,,Currently 404
+6,1,Bing Places,https://www.bingplaces.com/,Local/entity,Create listing,pending,,
+7,1,Apple Business Connect,https://businessconnect.apple.com/,Local/entity,Create listing,pending,,
+8,1,Crunchbase,https://www.crunchbase.com/,Entity database,Create org profile,pending,,
+9,2,Clutch,https://clutch.co/,B2B reviews,Create profile + get reviews,pending,,
+10,2,GoodFirms,https://www.goodfirms.co/,B2B reviews,Create profile,pending,,
+11,2,DesignRush,https://www.designrush.com/,Agency directory,Create profile,pending,,
+12,2,Sortlist,https://www.sortlist.com/,Agency directory,Create profile,pending,,
+13,2,Packworld,https://www.packworld.com/,Trade publication,Directory/contribute,pending,,
+14,2,Packaging Digest,https://www.packagingdigest.com/,Trade publication,Directory/contribute,pending,,
+15,2,Sustainable Packaging Coalition,https://sustainablepackaging.org/,Industry org,Member listing,pending,,
+16,2,Beauty Packaging,https://www.beautypackaging.com/,Trade publication,Directory listing,pending,,
+17,2,Packaura,https://packaura.com/,Packaging database,Supplier listing,pending,,
+18,3,Yelp for Business,https://biz.yelp.com/,Local directory,Create listing,pending,,
+19,3,Better Business Bureau,https://www.bbb.org/,Trust signal,Apply for listing,pending,,
+20,3,Manta,https://www.manta.com/,Business directory,Create listing,pending,,
+21,3,Hotfrog,https://www.hotfrog.com/,Business directory,Create listing,pending,,
+22,3,Brownbook,https://www.brownbook.net/,Business directory,Create listing,pending,,
+23,3,Cylex,https://www.cylex.us.com/,Business directory,Create listing,pending,,
+24,3,EZlocal,https://ezlocal.com/,Business directory,Create listing,pending,,
+25,3,ChamberofCommerce.com,https://www.chamberofcommerce.com/,Business directory,Create listing,pending,,
+26,3,MapQuest,https://www.mapquest.com/,Local/maps,Claim/create listing,pending,,Disambiguate from Superb Packaging
+27,3,Foursquare,https://business.foursquare.com/,Local/maps,Create listing,pending,,
+28,3,Nextdoor Business,https://business.nextdoor.com/,Local,Create listing,pending,,Monroe NY
+29,4,Europages,https://www.europages.com/,EU directory,Create listing,pending,,UK hub page exists
+30,4,Kompass,https://us.kompass.com/,B2B directory,Create listing,pending,,
+31,4,IndustryNet,https://www.industrynet.com/,Industrial directory,Create listing,pending,,
+32,4,MacRAE's Blue Book,https://www.macraesbluebook.com/,Industrial directory,Create listing,pending,,
+33,4,UK Packaging Federation,https://www.packagingfedn.co.uk/,UK industry,Member/listing,pending,,
+34,4,AIP Australia,https://www.aipack.com.au/,AU industry,Listing,pending,,
+35,4,PAC Canada,https://www.pac.ca/,CA industry,Listing,pending,,
+36,5,Product Hunt,https://www.producthunt.com/,Startup,Launch product,pending,,
+37,5,Indie Hackers,https://www.indiehackers.com/,Startup,Founder post,pending,,
+38,5,Starter Story,https://www.starterstory.com/,Startup,Pitch interview,pending,,
+39,5,Shopify Partners,https://www.shopify.com/partners,Ecommerce,Partner listing,pending,,
+40,6,Instagram,https://www.instagram.com/supplepac,Social,Optimize profile,pending,,Verify exists
+41,6,YouTube,,Social,Create channel,pending,,High AEO value
+42,6,Twitter/X,,Social,Create profile,optional,,
+43,7,Wikidata,https://www.wikidata.org/,Entity graph,Create item,pending,,After press coverage
+44,7,HARO,https://www.helpareporter.com/,PR,Expert responses,ongoing,,
+45,7,Qwoted,https://www.qwoted.com/,PR,Expert responses,ongoing,,
+46,8,Inventory Ready listicle,https://inventoryready.com/guides/top-packaging-labeling,Listicle,Inclusion pitch,pending,,Not currently listed
+47,8,PackOasis blog,https://packoasis.com/blog,Guest post,Pitch cost guide article,pending,,
+48,8,Zenpack blog,https://www.zenpack.us/blog,Guest post,Pitch sustainability article,pending,,
+49,8,Packaging Vista,https://packagingvista.com/blog,Guest post,Pitch MOQ article,pending,,
+50,8,NEWPRINT blog,https://www.newprint.com/blog,Guest post,Pitch wellness trends,pending,,
+51,8,Cubit Packaging,https://www.cubitpackaging.com/blog,Guest post,Pitch FDA labeling,pending,,
+52,9,Reddit r/Entrepreneur,https://reddit.com/r/Entrepreneur,Community,Answer packaging questions,ongoing,,
+53,9,Reddit r/ecommerce,https://reddit.com/r/ecommerce,Community,Answer DTC packaging questions,ongoing,,
+54,9,Reddit r/smallbusiness,https://reddit.com/r/smallbusiness,Community,Answer MOQ questions,ongoing,,
+55,9,Quora,https://www.quora.com/,Community,Answer supplement packaging Qs,ongoing,,
