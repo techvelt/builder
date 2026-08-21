@@ -1,0 +1,25 @@
+target_domain,referring_domain,link_type,confidence,disavow_entry,action,notes
+amzbuydeal.com,99coupondeals.com,Bookmark Spam,Verified,domain:99coupondeals.com,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,atozbookmarks.xyz,Bookmark Spam,Verified,domain:atozbookmarks.xyz,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,bookmarkdemand.com,Bookmark Spam,Verified,domain:bookmarkdemand.com,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,bookmarksclick.com,Bookmark Spam,Verified,domain:bookmarksclick.com,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,bookmarkstarget.com,Bookmark Spam,Verified,domain:bookmarkstarget.com,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,congressdigital.com,Bookmark Spam,Verified,domain:congressdigital.com,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,easierbookmark.com,Bookmark Spam,Verified,domain:easierbookmark.com,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,easylinksbacks.xyz,Bookmark Spam,Verified,domain:easylinksbacks.xyz,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,ebees.co,Bookmark Spam,Verified,domain:ebees.co,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,ebookmarkbase.com,Bookmark Spam,Verified,domain:ebookmarkbase.com,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,ebookmarkspot.com,Bookmark Spam,Verified,domain:ebookmarkspot.com,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,popularebookmark.com,Bookmark Spam,Verified,domain:popularebookmark.com,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,reddif.info,Bookmark Spam,Verified,domain:reddif.info,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,seoinfobookmarking.esy.es,Bookmark Spam,Verified,domain:seoinfobookmarking.esy.es,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,sur.ly,Stat Scraper,Verified,domain:sur.ly,Disavow,Link preview/stat scraper site
+amzbuydeal.com,thesourceweekly.com,Bookmark Spam,Verified,domain:thesourceweekly.com,Disavow,Pligg/social bookmark network via w2fr.com
+amzbuydeal.com,w2fr.com,Mirror Network,Verified,domain:w2fr.com,Disavow,Cross-domain mirror/scraper network host
+amzbuydeal.com,website.informer.com,Stat Scraper,Verified,domain:website.informer.com,Disavow,Website stat/info scraper
+daytribune.com,sur.ly,Stat Scraper,Verified,domain:sur.ly,Disavow,Link preview/stat scraper site
+daytribune.com,website.informer.com,Stat Scraper,Verified,domain:website.informer.com,Disavow,Website stat/info scraper
+getfestify.com,sur.ly,Stat Scraper,Verified,domain:sur.ly,Disavow,Link preview/stat scraper site
+getfestify.com,website.informer.com,Stat Scraper,Verified,domain:website.informer.com,Disavow,Website stat/info scraper
+nuision.com,sur.ly,Stat Scraper,Verified,domain:sur.ly,Disavow,Link preview/stat scraper site
+nuision.com,website.informer.com,Stat Scraper,Verified,domain:website.informer.com,Disavow,Website stat/info scraper
