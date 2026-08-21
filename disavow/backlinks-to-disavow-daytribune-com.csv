@@ -1,0 +1,8 @@
+target_domain,referring_domain,link_type,confidence,disavow_entry,action,notes
+daytribune.com,sur.ly,Stat Scraper,Verified,domain:sur.ly,Disavow,Link preview/stat scraper site
+daytribune.com,website.informer.com,Stat Scraper,Verified,domain:website.informer.com,Disavow,Website stat/info scraper
+daytribune.com,cutestat.com,Stat Scraper,Likely,domain:cutestat.com,Review in GSC first - legitimate news site,Domain stat mirror (jobs.dailytribune.com.cutestat.com); verify in GSC
+daytribune.com,hypestat.com,Stat Scraper,Likely,domain:hypestat.com,Review in GSC first - legitimate news site,Domain stat/scraper site; verify in GSC
+daytribune.com,webstatsdomain.org,Stat Scraper,Likely,domain:webstatsdomain.org,Review in GSC first - legitimate news site,Backlink stat scraper; verify in GSC
+daytribune.com,accessify.com,Stat Scraper,Likely,domain:accessify.com,Review in GSC first - legitimate news site,Site analysis scraper; verify in GSC
+daytribune.com,deets.feedreader.com,Stat Scraper,Likely,domain:deets.feedreader.com,Review in GSC first - legitimate news site,Feed/stat scraper; verify in GSC

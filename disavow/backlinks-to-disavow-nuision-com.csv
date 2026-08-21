@@ -1,0 +1,5 @@
+target_domain,referring_domain,link_type,confidence,disavow_entry,action,notes
+nuision.com,sur.ly,Stat Scraper,Verified,domain:sur.ly,Disavow,Link preview/stat scraper site
+nuision.com,website.informer.com,Stat Scraper,Verified,domain:website.informer.com,Disavow,Website stat/info scraper
+nuision.com,cutestat.com,Stat Scraper,Likely,domain:cutestat.com,Review in GSC first,Domain stat mirror site; verify in GSC
+nuision.com,deets.feedreader.com,Stat Scraper,Likely,domain:deets.feedreader.com,Review in GSC first,Feed/stat scraper; verify in GSC

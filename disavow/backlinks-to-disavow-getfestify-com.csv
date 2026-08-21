@@ -1,0 +1,5 @@
+target_domain,referring_domain,link_type,confidence,disavow_entry,action,notes
+getfestify.com,sur.ly,Stat Scraper,Verified,domain:sur.ly,Disavow,Link preview/stat scraper site
+getfestify.com,website.informer.com,Stat Scraper,Verified,domain:website.informer.com,Disavow,Website stat/info scraper
+getfestify.com,cutestat.com,Stat Scraper,Likely,domain:cutestat.com,Review in GSC first,Domain stat mirror site; verify in GSC before disavowing
+getfestify.com,hypestat.com,Stat Scraper,Likely,domain:hypestat.com,Review in GSC first,Domain stat/scraper site; verify in GSC before disavowing
