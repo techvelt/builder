@@ -1,0 +1,50 @@
+{
+  "slug": "categories/medical-supplies",
+  "title": "Medical Supplies",
+  "type": "category",
+  "description": "Browse our extensive selection of medical supplies for clinics, hospitals, and home care.",
+  "breadcrumbs": [
+    { "label": "Medical Supplies", "href": "/categories/medical-supplies" }
+  ],
+  "hero": {
+    "title": "Medical Supplies",
+    "subtitle": "Over 2,400 products in stock — gloves, syringes, wound care, and more.",
+    "ctaLabel": "Shop Best Sellers",
+    "ctaHref": "/categories/medical-supplies"
+  },
+  "products": [
+    {
+      "slug": "nitrile-exam-gloves-box-100",
+      "title": "Nitrile Exam Gloves — Box of 100",
+      "price": 12.99,
+      "category": "Medical Supplies",
+      "sku": "GLV-NIT-100",
+      "inStock": true,
+      "badge": "Best Seller"
+    },
+    {
+      "slug": "latex-exam-gloves-box-100",
+      "title": "Latex Exam Gloves — Box of 100",
+      "price": 9.99,
+      "category": "Medical Supplies",
+      "sku": "GLV-LTX-100",
+      "inStock": true
+    },
+    {
+      "slug": "disposable-syringe-3ml-100pk",
+      "title": "Disposable Syringe 3mL — 100 Pack",
+      "price": 24.50,
+      "category": "Medical Supplies",
+      "sku": "SYR-3ML-100",
+      "inStock": true
+    },
+    {
+      "slug": "alcohol-prep-pads-200ct",
+      "title": "Alcohol Prep Pads — 200 Count",
+      "price": 6.99,
+      "category": "Medical Supplies",
+      "sku": "ALC-PP-200",
+      "inStock": true
+    }
+  ]
+}

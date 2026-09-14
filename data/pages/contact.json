@@ -1,0 +1,14 @@
+{
+  "slug": "contact",
+  "title": "Contact Us",
+  "type": "page",
+  "description": "Get in touch with our team for orders, quotes, and support.",
+  "breadcrumbs": [
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "meta": {
+    "title": "Contact Us",
+    "description": "Reach MedSupply Pro by phone, email, or live chat."
+  },
+  "content": "<p><strong>Customer Service:</strong> 1-800-MED-SUPP (1-800-633-7877)</p><p><strong>Email:</strong> support@medsupplypro.com</p><p><strong>Hours:</strong> Monday–Friday 7am–7pm ET, Saturday 9am–3pm ET</p><p><strong>Bulk Orders:</strong> bulk@medsupplypro.com</p><h2>Headquarters</h2><p>1200 Healthcare Blvd, Suite 400<br/>Nashville, TN 37203</p>"
+}

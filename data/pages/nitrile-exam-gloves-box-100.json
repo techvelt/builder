@@ -1,0 +1,26 @@
+{
+  "slug": "nitrile-exam-gloves-box-100",
+  "title": "Nitrile Exam Gloves — Box of 100",
+  "type": "product",
+  "description": "Powder-free nitrile exam gloves offering superior barrier protection and tactile sensitivity. Ideal for medical, dental, and laboratory use. Latex-free and suitable for users with latex allergies.",
+  "breadcrumbs": [
+    { "label": "Medical Supplies", "href": "/categories/medical-supplies" },
+    { "label": "Nitrile Exam Gloves", "href": "/nitrile-exam-gloves-box-100" }
+  ],
+  "meta": {
+    "title": "Nitrile Exam Gloves — Box of 100",
+    "description": "Powder-free nitrile exam gloves, box of 100. Latex-free, medical grade."
+  },
+  "products": [
+    {
+      "slug": "nitrile-exam-gloves-box-100",
+      "title": "Nitrile Exam Gloves — Box of 100",
+      "price": 12.99,
+      "category": "Medical Supplies",
+      "sku": "GLV-NIT-100",
+      "inStock": true,
+      "badge": "Best Seller"
+    }
+  ],
+  "content": "<h2>Product Details</h2><ul><li>Powder-free nitrile construction</li><li>Textured fingertips for enhanced grip</li><li>Available in S, M, L, XL</li><li>Meets ASTM D6319 standards</li><li>Not made with natural rubber latex</li></ul>"
+}

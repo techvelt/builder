@@ -1,0 +1,98 @@
+{
+  "slug": "home",
+  "title": "MedSupply Pro",
+  "type": "home",
+  "hero": {
+    "title": "Professional Medical Supplies Delivered Fast",
+    "subtitle": "From exam gloves to diagnostic equipment — everything your practice needs, backed by licensed pharmacists and same-day shipping.",
+    "ctaLabel": "Shop Best Sellers",
+    "ctaHref": "/categories/medical-supplies",
+    "badge": "Trusted by 10,000+ facilities"
+  },
+  "categories": [
+    {
+      "slug": "medical-supplies",
+      "title": "Medical Supplies",
+      "description": "Gloves, syringes, wound care & more",
+      "productCount": 2400
+    },
+    {
+      "slug": "diagnostics",
+      "title": "Diagnostics",
+      "description": "Monitors, thermometers, test kits",
+      "productCount": 580
+    },
+    {
+      "slug": "surgical",
+      "title": "Surgical",
+      "description": "Instruments, sutures, sterilization",
+      "productCount": 920
+    },
+    {
+      "slug": "pharmacy",
+      "title": "Pharmacy",
+      "description": "OTC medications & supplements",
+      "productCount": 1100
+    },
+    {
+      "slug": "equipment",
+      "title": "Equipment",
+      "description": "Beds, wheelchairs, IV stands",
+      "productCount": 340
+    },
+    {
+      "slug": "ppe",
+      "title": "PPE & Safety",
+      "description": "Masks, gowns, face shields",
+      "productCount": 760
+    },
+    {
+      "slug": "dental",
+      "title": "Dental",
+      "description": "Burs, syringes, impression materials",
+      "productCount": 480
+    },
+    {
+      "slug": "first-aid",
+      "title": "First Aid",
+      "description": "Kits, bandages, emergency supplies",
+      "productCount": 290
+    }
+  ],
+  "products": [
+    {
+      "slug": "nitrile-exam-gloves-box-100",
+      "title": "Nitrile Exam Gloves — Box of 100",
+      "price": 12.99,
+      "category": "Medical Supplies",
+      "sku": "GLV-NIT-100",
+      "inStock": true,
+      "badge": "Best Seller"
+    },
+    {
+      "slug": "digital-blood-pressure-monitor",
+      "title": "Digital Blood Pressure Monitor",
+      "price": 49.95,
+      "category": "Diagnostics",
+      "sku": "BP-DIG-001",
+      "inStock": true
+    },
+    {
+      "slug": "pulse-oximeter-fingertip",
+      "title": "Fingertip Pulse Oximeter",
+      "price": 29.99,
+      "category": "Diagnostics",
+      "sku": "OX-FN-002",
+      "inStock": true,
+      "badge": "New"
+    },
+    {
+      "slug": "surgical-face-mask-50pk",
+      "title": "Surgical Face Masks — 50 Pack",
+      "price": 8.49,
+      "category": "PPE & Safety",
+      "sku": "MSK-SRG-50",
+      "inStock": true
+    }
+  ]
+}

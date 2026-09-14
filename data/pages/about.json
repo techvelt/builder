@@ -1,0 +1,14 @@
+{
+  "slug": "about",
+  "title": "About MedSupply Pro",
+  "type": "page",
+  "description": "Learn about our mission to deliver quality medical supplies to healthcare professionals.",
+  "breadcrumbs": [
+    { "label": "About", "href": "/about" }
+  ],
+  "meta": {
+    "title": "About Us",
+    "description": "MedSupply Pro has been a trusted medical supplier since 1998."
+  },
+  "content": "<p>Founded in 1998, MedSupply Pro has grown from a small regional distributor to one of the nation's leading online medical supply retailers. We serve hospitals, clinics, dental offices, veterinary practices, and home healthcare providers across all 50 states.</p><p>Our team includes licensed pharmacists, certified medical equipment specialists, and dedicated customer support professionals who understand the unique needs of healthcare facilities.</p><h2>Our Commitment</h2><ul><li>FDA-registered and compliant sourcing</li><li>Same-day shipping on in-stock items</li><li>Volume pricing for institutional buyers</li><li>24/7 expert support</li></ul>"
+}
