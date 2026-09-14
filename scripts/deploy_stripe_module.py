@@ -152,6 +152,25 @@ def patch_env_php():
         print("WARNING: Could not read env.php content")
         return
 
+    if "'shopbestmed'" in content:
+        content = re.sub(
+            r"('shopbestmed'\s*=>\s*\[\s*'stripe'\s*=>\s*\[\s*'secret_key'\s*=>\s*)'[^']*'",
+            rf"\1'{secret}'",
+            content,
+            count=1,
+            flags=re.DOTALL,
+        )
+        content = re.sub(
+            r"('shopbestmed'\s*=>\s*\[\s*'stripe'\s*=>\s*\[[^\]]*'publishable_key'\s*=>\s*)'[^']*'",
+            rf"\1'{publishable}'",
+            content,
+            count=1,
+            flags=re.DOTALL,
+        )
+        save_file("/public_html/app/etc", "env.php", content)
+        print("env.php Stripe keys updated (keys not printed)")
+        return
+
     stripe_block = f"""
     'shopbestmed' => [
         'stripe' => [
@@ -159,10 +178,6 @@ def patch_env_php():
             'publishable_key' => '{publishable}',
         ],
     ],"""
-
-    if "'shopbestmed'" in content:
-        print("env.php already has shopbestmed config")
-        return
 
     # Insert before closing bracket of return array
     content = content.rstrip()
