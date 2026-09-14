@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Payment\Model\MethodList">
+        <plugin name="shopbestmed_stripe_only"
+                type="ShopBestMed\StripeDeferred\Plugin\Payment\MethodListPlugin"
+                sortOrder="100"/>
+    </type>
+    <type name="ShopBestMed\StripeDeferred\Model\Ui\ConfigProvider">
+        <arguments>
+            <argument name="config" xsi:type="object">ShopBestMed\StripeDeferred\Model\Config</argument>
+        </arguments>
+    </type>
+</config>

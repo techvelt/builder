@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="payment">
+            <group id="shopbestmed_stripe" translate="label" type="text" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Stripe (Deferred Capture)</label>
+                <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="title" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Title</label>
+                </field>
+                <field id="statement_descriptor" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Bank Statement Descriptor</label>
+                    <comment>Appears on customer bank statements (max 22 characters).</comment>
+                </field>
+                <field id="info" translate="label" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>API Keys</label>
+                    <frontend_model>Magento\Config\Block\System\Config\Form\Field\Heading</frontend_model>
+                    <comment><![CDATA[Secret and publishable keys are loaded from <strong>sbm_stripe_secret</strong> / <strong>sbm_stripe_publishable_key</strong> environment variables or <code>app/etc/env.php</code> under <code>shopbestmed.stripe</code>.]]></comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
