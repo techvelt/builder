@@ -158,8 +158,11 @@ $footerBlocks = [
     34 => ['identifier' => 'new-footer-links', 'content' => $newFooterContent],
 ];
 foreach ($footerBlocks as $blockId => $block) {
-    $affected = $conn->update('cms_block', ['content' => $block['content']], ['block_id' => $blockId]);
-    echo "cms_block: {$block['identifier']} (id $blockId) updated ($affected rows)\n";
+    $conn->query(
+        'UPDATE cms_block SET content = ? WHERE block_id = ?',
+        [$block['content'], $blockId]
+    );
+    echo "cms_block: {$block['identifier']} (id $blockId) updated\n";
 }
 
 $cmsReplacements = [
