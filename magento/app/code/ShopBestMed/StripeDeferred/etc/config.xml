@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <!-- Disable other gateways -->
+            <cardknox><active>0</active></cardknox>
+            <cardknox_cc_vault><active>0</active></cardknox_cc_vault>
+            <paypal_express><active>0</active></paypal_express>
+            <paypal_billing_agreement><active>0</active></paypal_billing_agreement>
+            <payflowpro><active>0</active></payflowpro>
+            <payflow_link><active>0</active></payflow_link>
+            <payflow_advanced><active>0</active></payflow_advanced>
+            <braintree><active>0</active></braintree>
+            <braintree_paypal><active>0</active></braintree_paypal>
+            <authorizenet_acceptjs><active>0</active></authorizenet_acceptjs>
+            <checkmo><active>0</active></checkmo>
+            <free><active>0</active></free>
+            <banktransfer><active>0</active></banktransfer>
+            <cashondelivery><active>0</active></cashondelivery>
+            <purchaseorder><active>0</active></purchaseorder>
+
+            <shopbestmed_stripe>
+                <active>1</active>
+                <model>ShopBestMed\StripeDeferred\Model\Payment\StripeDeferred</model>
+                <title>Credit Card (Stripe)</title>
+                <payment_action>authorize</payment_action>
+                <order_status>pending</order_status>
+                <currency>USD</currency>
+                <allowspecific>0</allowspecific>
+                <sort_order>1</sort_order>
+                <can_authorize>1</can_authorize>
+                <can_capture>1</can_capture>
+                <can_capture_partial>0</can_capture_partial>
+                <can_void>1</can_void>
+                <can_cancel>1</can_cancel>
+                <can_use_checkout>1</can_use_checkout>
+                <can_use_internal>0</can_use_internal>
+                <is_gateway>1</is_gateway>
+                <statement_descriptor>SHOPEBESTMED</statement_descriptor>
+            </shopbestmed_stripe>
+        </payment>
+    </default>
+</config>
