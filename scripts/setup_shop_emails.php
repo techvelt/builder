@@ -88,8 +88,79 @@ $footerContent = <<<'HTML'
 <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
 HTML;
 
-$conn->update('cms_block', ['content' => $footerContent], ['identifier' => 'footer-links']);
-echo "cms_block: footer-links updated\n";
+$newFooterContent = <<<'HTML'
+<div class="footer-links">
+<h3>The Professional Source for Medical Supplies</h3>
+<div class="link -footera">
+<h4>Contact</h4>
+<p>Phone: <a href="tel:1-855-819-2200">855-819-2200</a></p>
+<p><a href="mailto:info@shopbestmed.com">info@shopbestmed.com</a> — General</p>
+<p><a href="mailto:sales@shopbestmed.com">sales@shopbestmed.com</a> — Sales</p>
+<p><a href="mailto:quotes@shopbestmed.com">quotes@shopbestmed.com</a> — Quotes</p>
+<p><a href="mailto:support@shopbestmed.com">support@shopbestmed.com</a> — Support</p>
+<p><a href="mailto:billing@shopbestmed.com">billing@shopbestmed.com</a> — Billing</p>
+<p><a href="mailto:orders@shopbestmed.com">orders@shopbestmed.com</a> — Orders</p>
+<p><a href="mailto:returns@shopbestmed.com">returns@shopbestmed.com</a> — Returns</p>
+<p><a href="mailto:shipping@shopbestmed.com">shipping@shopbestmed.com</a> — Shipping</p>
+<p><a href="mailto:accounts@shopbestmed.com">accounts@shopbestmed.com</a> — Accounts</p>
+</div>
+<div class="link -footerb">
+<h4>Customer Service</h4>
+<p><a href="{{config path="web/secure/base_url"}}contact">Contact us</a></p>
+<p><a href="{{config path="web/secure/base_url"}}about-shop-best-medical">About us</a></p>
+<p><a href="{{config path="web/secure/base_url"}}privacy-policy-cookie-restriction-mode">Privacy Policy</a></p>
+<p><a href="{{config path="web/secure/base_url"}}frequently-asked-questions#shipping">Shipping Policy</a></p>
+<p><a href="{{config path="web/secure/base_url"}}frequently-asked-questions">FAQ</a></p>
+<p><a href="{{config path="web/secure/base_url"}}html-sitemap">HTML Sitemap</a></p>
+</div>
+<div class="link -footerc">
+<h4>Account Links</h4>
+<p><a href="{{config path="web/secure/base_url"}}customer/account/">My Account</a></p>
+<p><a href="{{config path="web/secure/base_url"}}sales/order/history/">Order History</a></p>
+<p><a href="{{config path="web/secure/base_url"}}sales/guest/form/">Track your Order</a></p>
+<p><a href="{{config path="web/secure/base_url"}}wishlist/">My Wishlist</a></p>
+</div>
+<div class="link -footerc">
+<h4>B2B</h4>
+<p><a href="{{config path="web/secure/base_url"}}bulk-quote-requests">Request a Quote</a></p>
+<p><a href="{{config path="web/secure/base_url"}}contract-pricing">Contract Pricing</a></p>
+<p><a href="{{config path="web/secure/base_url"}}project-planning">Project Planning</a></p>
+<p><a href="{{config path="web/secure/base_url"}}payment-terms">Payment Terms</a></p>
+</div>
+</div>
+<div class="reasons">
+<h3>Why Buy From BestMed?</h3>
+<ul>
+<li><span>1</span><a href="{{config path="web/secure/base_url"}}price-match">Price Match Guarantee</a></li>
+<li><span>2</span><a href="{{config path="web/secure/base_url"}}contact">Outstanding Customer Service</a></li>
+<li><span>3</span><a href="{{config path="web/secure/base_url"}}bulk-quote-requests">Bulk Order Discounts</a></li>
+</ul>
+{{block class="Magento\Newsletter\Block\Subscribe" name="newsletter" template="Magento_Newsletter::subscribe.phtml"}}
+</div>
+<div class="footer-logos">
+<img src="{{media url=&quot;defense-logistics-agency.png&quot;}}" alt="" />
+<img src="{{media url=&quot;national-institute-of-health.png&quot;}}" alt="" />
+<img src="{{media url=&quot;women-business-enterprise.png&quot;}}" alt="" />
+<img src="{{media url=&quot;dept-health-and-human-services.png&quot;}}" alt="" />
+<img src="{{media url=&quot;download_3_1_.png&quot;}}" alt="" />
+<img src="{{media url=&quot;department-of-defense.png&quot;}}" alt="" />
+<img src="{{media url=&quot;unnamed_2_.png&quot;}}" alt="" />
+<img src="{{media url=&quot;download_2_1_.png&quot;}}" alt="" />
+<img src="{{media url=&quot;hubzone.jpg&quot;}}" alt="" />
+<img src="{{media url=&quot;mwbe.jpg&quot;}}" alt="" />
+<img src="{{media url=&quot;portauthority.jpg&quot;}}" alt="" />
+</div>
+<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+HTML;
+
+$footerBlocks = [
+    2 => ['identifier' => 'footer-links', 'content' => $footerContent],
+    34 => ['identifier' => 'new-footer-links', 'content' => $newFooterContent],
+];
+foreach ($footerBlocks as $blockId => $block) {
+    $affected = $conn->update('cms_block', ['content' => $block['content']], ['block_id' => $blockId]);
+    echo "cms_block: {$block['identifier']} (id $blockId) updated ($affected rows)\n";
+}
 
 $cmsReplacements = [
     'mailto:cs@shopbestmed.com' => 'mailto:support@shopbestmed.com',
